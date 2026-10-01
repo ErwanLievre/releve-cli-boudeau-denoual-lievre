@@ -10,7 +10,7 @@ nombre de mesures, moyenne, maximum, minimum, et signalement des doublons.
 
 ## Démarrage
 
-Avant la première utilisation, suivez le [guide de démarrage](docs/guide-demarrage.md).
+Avant la première utilisation, suivez le [guide de démarrage](docs/demarrage.md).
 
 ## Configuration
 
