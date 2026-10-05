@@ -28,7 +28,7 @@ Pour proposer une modification de la documentation ou du projet, suivez ces conv
    git switch -c docs/nom-du-sujet
 ```
 
-2. Un message d'enregistrement préfixé par son type, par exemple `docs:` pour la documentation ou `fix:` pour une correction :
+2. Un message d'enregistrement préfixé par son type, par exemple `docs:` pour la documentation, `add:` pour ajouter ou `fix:` pour une correction :
 
 ```
    git commit -m "docs: préciser le résultat attendu du démarrage"
