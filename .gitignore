@@ -22,3 +22,6 @@ Thumbs.db
 *.log
 *.tmp
 *~
+
+# Livrables locaux du TP (conversation et rendus)
+livrables/
