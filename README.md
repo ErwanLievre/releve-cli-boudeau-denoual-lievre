@@ -17,13 +17,35 @@ Avant la première utilisation, suivez le [guide de démarrage](docs/demarrage.m
 Copiez `config.example.txt` sous le nom `config.txt` et complétez-le avec vos propres réglages.
 Ne versionnez jamais `config.txt` : il est exclu par `.gitignore`.
 
-## Contribuer
+## Contribution
 
-Toute modification passe par une branche dédiée et une PR décrite en trois parties (contexte,
-changements, impact), relue par un membre de l'équipe qui n'a pas écrit la modification.
+Pour proposer une modification de la documentation ou du projet, suivez ces conventions :
 
-Les commandes et les gestes de la plateforme sont résumés dans [l'aide-mémoire Git et GitHub](docs/aide-memoire-git-github.md).
-La syntaxe Markdown utilisée dans toute la documentation est résumée dans [l'aide-mémoire Markdown](docs/aide-memoire-markdown.md).
+1. Une branche par sujet. Partir de `main` à jour et créer une branche dont le nom indique le sujet :
 
-Les gabarits de travail (fichier README complet, journal des versions, liste de contrôle de relecture,
-compte rendu) sont rassemblés dans [`docs/modeles/`](docs/modeles/).
+```
+   git switch main && git pull
+   git switch -c docs/nom-du-sujet
+```
+
+2. Un message d'enregistrement préfixé par son type, par exemple `docs:` pour la documentation ou `fix:` pour une correction :
+
+```
+   git commit -m "docs: préciser le résultat attendu du démarrage"
+```
+
+3. Publier la branche, puis ouvrir une demande de fusion sur GitHub :
+
+```
+   git push -u origin docs/nom-du-sujet
+```
+
+4. Faire relire la demande de fusion par un autre membre avant de fusionner. Personne ne fusionne sa propre demande sans relecture.
+
+Aucune valeur réelle (mot de passe, jeton d'accès, courriel ou téléphone personnel) ne doit être ajoutée au dépôt : il est public et son historique est conservé.
+
+## Contact
+
+Ce projet est maintenu par le trinôme Erwan Lievre, Kilian Boudeaud et Ewen Denoual.
+
+Pour poser une question sur le projet, signaler une erreur dans la documentation ou proposer une amélioration, ouvrez un ticket dans l'onglet **Issues** de ce dépôt. Nous y répondrons à cet endroit, afin que la réponse profite aussi aux autres lecteurs.
