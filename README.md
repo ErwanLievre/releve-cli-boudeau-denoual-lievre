@@ -24,3 +24,6 @@ changements, impact), relue par un membre de l'équipe qui n'a pas écrit la mod
 
 Les commandes et les gestes de la plateforme sont résumés dans [l'aide-mémoire Git et GitHub](docs/aide-memoire-git-github.md).
 La syntaxe Markdown utilisée dans toute la documentation est résumée dans [l'aide-mémoire Markdown](docs/aide-memoire-markdown.md).
+
+Les gabarits de travail (fichier README complet, journal des versions, liste de contrôle de relecture,
+compte rendu) sont rassemblés dans [`docs/modeles/`](docs/modeles/).
