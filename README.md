@@ -21,3 +21,5 @@ Ne versionnez jamais `config.txt` : il est exclu par `.gitignore`.
 
 Toute modification passe par une branche dédiée et une PR décrite en trois parties (contexte,
 changements, impact), relue par un membre de l'équipe qui n'a pas écrit la modification.
+
+Les commandes et les gestes de la plateforme sont résumés dans [l'aide-mémoire Git et GitHub](docs/Cheat-sheet-Git-GitHub.md).
