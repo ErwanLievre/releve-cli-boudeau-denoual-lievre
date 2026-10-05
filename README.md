@@ -22,5 +22,5 @@ Ne versionnez jamais `config.txt` : il est exclu par `.gitignore`.
 Toute modification passe par une branche dédiée et une PR décrite en trois parties (contexte,
 changements, impact), relue par un membre de l'équipe qui n'a pas écrit la modification.
 
-Les commandes et les gestes de la plateforme sont résumés dans [l'aide-mémoire Git et GitHub](docs/Cheat-sheet-Git-GitHub.md).
-La syntaxe Markdown utilisée dans toute la documentation est résumée dans [l'aide-mémoire Markdown](docs/Cheat-sheet-Markdown.md).
+Les commandes et les gestes de la plateforme sont résumés dans [l'aide-mémoire Git et GitHub](docs/aide-memoire-git-github.md).
+La syntaxe Markdown utilisée dans toute la documentation est résumée dans [l'aide-mémoire Markdown](docs/aide-memoire-markdown.md).
