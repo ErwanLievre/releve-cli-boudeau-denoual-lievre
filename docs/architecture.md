@@ -1,12 +1,17 @@
-# Architecture de `releve-cli`
+# Architecture de releve-cli
 
 ## Schéma
 
 ```mermaid
 flowchart LR
-    CSV[Fichier de relevés CSV] -- "lecture ligne à ligne : données CSV" --> CLI[releve-cli]
-    CLI -- "écriture fichier : rapport texte" --> OUT[rapports/]
-    CLI -- "HTTPS, JSON : données de dépôt" --> API[(Service de dépôt, hors périmètre)]
+    CSV[Fichier de relevés CSV]
+    CLI[releve-cli]
+    OUT[rapports/]
+    API[(Service de dépôt externe)]
+
+    CSV -- "lecture ligne à ligne, données CSV" --> CLI
+    CLI -- "écriture du rapport texte tabulaire" --> OUT
+    CLI -- "HTTPS, JSON : dépôt du rapport" --> API
 ```
 
 ## Légende
